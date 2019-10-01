@@ -20,7 +20,6 @@ from core import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/hello/', views.HelloView.as_view(), name='hello'),
     path('api/login/', obtain_auth_token, name='api_token_auth'),
-
+    path('api/find_similar/', views.FindSimilar.as_view(), name='find_similar'),
 ]
