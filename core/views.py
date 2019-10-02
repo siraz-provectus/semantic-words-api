@@ -14,10 +14,10 @@ import requests
 import re
 
 url = 'https://raw.githubusercontent.com/akutuzov/universal-pos-tags/4653e8a9154e93fe2f417c7fdb7a357b7d6ce333/ru-rnc.map'
-model_url = 'http://vectors.nlpl.eu/repository/11/183.zip'
-m = wget.download(model_url)
-model_file = model_url.split('/')[-1]
-# model_file = '183.zip'
+# model_url = 'http://vectors.nlpl.eu/repository/11/183.zip'
+# m = wget.download(model_url)
+# model_file = model_url.split('/')[-1]
+model_file = '183.zip'
 with zipfile.ZipFile(model_file, 'r') as archive:
   stream = archive.open('model.bin')
   model = gensim.models.KeyedVectors.load_word2vec_format(stream, binary=True)
