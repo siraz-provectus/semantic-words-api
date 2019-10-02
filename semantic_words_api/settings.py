@@ -25,7 +25,7 @@ SECRET_KEY = '3#o58u!o2*ye9&&3!#!$@aws=1jo+u64#gs@2%4m^tx718(o_1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['w2v.dnadev.ru']
 
 
 # Application definition
