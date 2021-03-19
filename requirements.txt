@@ -8,7 +8,7 @@ certifi==2019.6.16
 chardet==3.0.4
 Django==2.2
 django-rest-auth==0.9.5
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 docutils==0.15.2
 gast==0.2.2
