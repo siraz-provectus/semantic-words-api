@@ -45,7 +45,7 @@ tensorflow-estimator==1.14.0
 termcolor==1.1.0
 tf-estimator-nightly==1.14.0.dev2019060501
 ufal.udpipe==1.2.0.2
-urllib3==1.25.3
+urllib3==1.25.8
 Werkzeug==0.15.5
 wget==3.2
 wrapt==1.11.2
